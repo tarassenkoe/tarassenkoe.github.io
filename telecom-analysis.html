@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Telecom Customer Churn Analysis | Elena Tarassenko</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="project-hero">
+    <nav>
+      <div class="logo"><a href="index.html">Elena Tarassenko</a></div>
+      <div class="nav-links">
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#skills">Skills</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </nav>
+    <div class="project-hero-content">
+      <p class="eyebrow">Kaggle Portfolio Project</p>
+      <h1>Telecom Customer Churn & Data Quality Analysis</h1>
+      <p class="intro">A practical data-analysis project designed to identify churn patterns, validate data quality, and translate customer behavior into retention recommendations.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="project-summary-grid">
+        <div class="metric-card"><span>Domain</span><strong>Telecommunications</strong></div>
+        <div class="metric-card"><span>Primary Goal</span><strong>Understand Churn</strong></div>
+        <div class="metric-card"><span>Data Focus</span><strong>Quality + Customer Behavior</strong></div>
+        <div class="metric-card"><span>Tools</span><strong>Python / SQL / BI</strong></div>
+      </div>
+    </section>
+
+    <section class="section analysis-section">
+      <h2>Business Problem</h2>
+      <p>Customer churn directly affects recurring revenue and customer lifetime value. The objective of this analysis is to determine which customer characteristics and service patterns are associated with churn, while first ensuring that the underlying data is complete, consistent, and analytically reliable.</p>
+    </section>
+
+    <section class="section alt analysis-section">
+      <h2>Analysis Workflow</h2>
+      <div class="grid analysis-grid">
+        <div class="card"><span class="step">01</span><h3>Data Quality Audit</h3><p>Check missing values, duplicate rows, inconsistent categories, invalid ranges, unusual values, and datatype problems.</p></div>
+        <div class="card"><span class="step">02</span><h3>Exploratory Analysis</h3><p>Profile customer tenure, charges, services, contracts, demographics, usage patterns, and churn distribution.</p></div>
+        <div class="card"><span class="step">03</span><h3>Segmentation</h3><p>Compare churn across customer groups such as contract type, tenure bands, service combinations, and payment behavior.</p></div>
+        <div class="card"><span class="step">04</span><h3>Correlation Analysis</h3><p>Measure relationships among numeric variables and use a heatmap to identify potentially important drivers.</p></div>
+        <div class="card"><span class="step">05</span><h3>Churn Drivers</h3><p>Identify variables most strongly associated with churn and distinguish useful business signals from simple correlation.</p></div>
+        <div class="card"><span class="step">06</span><h3>Recommendations</h3><p>Translate findings into retention actions, customer targeting ideas, KPI monitoring, and data-quality improvements.</p></div>
+      </div>
+    </section>
+
+    <section class="section analysis-section">
+      <h2>Key Questions</h2>
+      <div class="question-list">
+        <p>Which customer segments have the highest churn rate?</p>
+        <p>Does tenure meaningfully change churn risk?</p>
+        <p>How do monthly or total charges relate to churn?</p>
+        <p>Which contract or service combinations are associated with greater retention?</p>
+        <p>Are missing values, outliers, or inconsistent fields distorting the analysis?</p>
+        <p>What customer groups should a retention team prioritize?</p>
+      </div>
+    </section>
+
+    <section class="section alt analysis-section">
+      <h2>Correlation Heatmap</h2>
+      <div class="equation-card">
+        <p>The heatmap can use the Pearson correlation coefficient:</p>
+        <div class="equation">r = Σ[(xᵢ − x̄)(yᵢ − ȳ)] / √(Σ(xᵢ − x̄)² · Σ(yᵢ − ȳ)²)</div>
+        <p>A value near +1 indicates a strong positive linear relationship, near −1 a strong negative relationship, and near 0 little linear relationship. Correlation is useful for exploration but does not by itself prove causation.</p>
+      </div>
+    </section>
+
+    <section class="section analysis-section">
+      <h2>Portfolio Deliverables</h2>
+      <div class="grid deliverable-grid">
+        <div class="card"><h3>Python Notebook</h3><p>Cleaning, validation, exploratory analysis, statistics, and visualizations using Pandas.</p></div>
+        <div class="card"><h3>SQL Analysis</h3><p>Customer segmentation, churn KPIs, aggregations, CTEs, and window-function analysis.</p></div>
+        <div class="card"><h3>BI Dashboard</h3><p>Executive-facing churn dashboard with filters, KPI cards, segments, and actionable findings.</p></div>
+      </div>
+    </section>
+
+    <section class="section dataset-box">
+      <h2>Dataset</h2>
+      <p><strong>Telecom Customer Churn Data Quality Challenge</strong> from Kaggle.</p>
+      <p class="muted">The actual Kaggle dataset file is not embedded in this website package yet because the ZIP currently exists on your Chromebook, not in this chat. Upload the downloaded ZIP here and it can be added to this section as a real downloadable dataset and used to populate calculated KPIs and charts.</p>
+      <div class="buttons"><a class="btn primary dark-btn" href="index.html#projects">← Back to portfolio</a></div>
+    </section>
+  </main>
+
+  <footer><p>© 2026 Elena Tarassenko. Data Analyst Portfolio.</p></footer>
+</body>
+</html>
